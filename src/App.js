@@ -1,6 +1,6 @@
 import React,{useEffect,useRef} from 'react';
 import {Grid} from '@material-ui/core';
-import {PushToTalkButton, PushToTalkButtonContainer, ErrorPanel} from '@speechly/react-ui';
+//import {PushToTalkButton, PushToTalkButtonContainer, ErrorPanel} from '@speechly/react-ui';
 import {SpeechState, useSpeechContext} from '@speechly/react-client'
 import IncomeExpenseDetails from './components/IncomeExpenseComp/IncomeExpenseDetails';
 import MainDetails from './components/MainComp/MainDetails';
@@ -37,10 +37,10 @@ function App() {
         </Grid>
       </Grid>
 
-      <PushToTalkButtonContainer>
-        <PushToTalkButton/>
-        <ErrorPanel/>
-      </PushToTalkButtonContainer>
+//       <PushToTalkButtonContainer>
+//         <PushToTalkButton/>
+//         <ErrorPanel/>
+//       </PushToTalkButtonContainer>
 
     </div>
   );
