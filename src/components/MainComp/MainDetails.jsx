@@ -5,7 +5,7 @@ import Form from './Form/Form';
 import List from './Expense List/List';
 
 import {ExpenseTrackerContext} from '../../context/Context';
-import InfoCard from '../InfoCard';
+//import InfoCard from '../InfoCard';
 
 const MainDetails = () => {
     const classes = useStyles();
@@ -16,9 +16,9 @@ const MainDetails = () => {
             <CardHeader title="Expense Tracker" subheader="Powered by Phanindra"/>
             <CardContent>
                 <Typography align="center" variant="h5">Total Balance ₹{balance}</Typography>
-                <Typography variant="subtitle2" style={{lineHeight:'1.5em', marginTop:'20px'}}>
-                    <InfoCard/>
-                </Typography>
+//                 <Typography variant="subtitle2" style={{lineHeight:'1.5em', marginTop:'20px'}}>
+//                     <InfoCard/>
+//                 </Typography>
                 <Divider className={classes.divider}/>
                 <Form/>
             </CardContent>
